@@ -20,7 +20,7 @@ function Days (props){
             {days.map((day,index)=>{
                 return (
                     <LinearGradient keyExtractor={index} style={style.day} colors={['#09203F','#537895']}>
-                         <Text keyExtractor={day} style={{color:'white'}}  onPress={()=>props.navigation.navigate('Todo')} >{day} </Text>
+                         <Text keyExtractor={day} style={{color:'white'}}  onPress={()=>props.navigation.navigate('Todo')} >{day.toUpperCase()} </Text>
                     </LinearGradient>
                     )
             })}
