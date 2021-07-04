@@ -16,11 +16,11 @@ function Days (props){
         <LinearGradient  colors={['#D5D4D0','#D5D4D0','#EEEEEC','#EFEEEC','#E9E9E7']}>
         <SafeAreaView style={style.SafeAreaView}>
          
-        <View style={style.displyDays}>
+        <View style={style.displayDays}>
             {days.map((day,index)=>{
                 return (
                     <LinearGradient keyExtractor={index} style={style.day} colors={['#09203F','#537895']}>
-                    <Text keyExtractor={day} style={{color:'white'}} onPress={()=>props.navigation.navigate('Todo')}>{day} </Text>
+                         <Text keyExtractor={day} style={{color:'white'}}  onPress={()=>props.navigation.navigate('Notes')} >{day.toUpperCase()} </Text>
                     </LinearGradient>
                     )
             })}
@@ -37,7 +37,7 @@ const style=StyleSheet.create({
         height:'100%',
         color:'#f0f'
     },
-    displyDays:{
+    displayDays:{
         marginTop:25,
         display:'flex',
         justifyContent:'space-around',
