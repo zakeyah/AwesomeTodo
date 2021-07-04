@@ -11,7 +11,7 @@ const screens = {
     Days:{
         screen:Days
     },
-    Todo:{
+    Notes:{
         screen:PickerComponent
 
     }

@@ -6,7 +6,7 @@ function Home (props){
             <View >
               
                <LinearGradient colors={['#D5D4D0','#D5D4D0','#EEEEEC','#EFEEEC','#E9E9E7']}  style={style.SafeAreaView}>
-                   <Text >Welcome To Our Todo App</Text>
+                   <Text >Welcome To Our notes App</Text>
                    <TouchableOpacity style={style.button}>
                        <Text style={style.text} onPress={()=>props.navigation.navigate('Days')}>Go!!</Text>
                    </TouchableOpacity>

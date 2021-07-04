@@ -31,7 +31,7 @@ function PickerComponent(props){
      <>
         <LinearGradient style={style.header}   colors={['#09203F','#537895']}>
             <View  >
-                <Text style={style.headerText} >Your Tasks</Text>
+                <Text style={style.headerText} >Your Notes</Text>
             </View>
         </LinearGradient>
 
