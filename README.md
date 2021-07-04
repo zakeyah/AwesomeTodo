@@ -3,16 +3,27 @@
 + Phone App was made by react native
 + It is a simple notes app to keep your notes in and avoid losing your mind
 
-## Team Members :
-1. Zakeyah Abo yaseen
-2. Ghofran Deyyat
-3. Qais Ata
+# Authors
+* [Qais Waleed](https://github.com/qaisw96) , [Ghofran Dayyat](https://github.com/ghofranDayyat/) , [zakeyah](https://github.com/zakeyah)
 
-## Application Features ::
+# Links
+* [GitHub](https://github.com/zakeyah/AwesomeTodo)
 
-+ Days Page 
+# Technology and Tools
+* React Native
+* [Expo](https://m.apkpure.com/ar/expo/host.exp.exponent) 
+
+# Running
+* ``npm install --global expo-cli``
+* `npm i `
+* `expo start`
+
+
+## Days Page 
+
 ![](./assets/days.jpg)
 
-+ Tasks Page 
+## Tasks Page 
+
 ![](./assets/add.jpg)
 ![](./assets/tasks.jpg)
